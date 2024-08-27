@@ -45,7 +45,7 @@ def main():
             data = {'connectivity': 'Disconnected', 'download_speed': 'N/A', 'upload_speed': 'N/A'}
         html = template.render(data=data)
         print(html)
-        time.sleep(30)  # Wait for 30 seconds before checking again
+        time.sleep(60)  # Wait for 30 seconds before checking again
 
 if __name__ == '__main__':
     main()
